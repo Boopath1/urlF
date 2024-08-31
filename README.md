@@ -79,6 +79,8 @@ If you're doing a mass scan, `urlF.py` can save you a lot of time. Even if you'r
 
 ## Sample POC
 
+The timing is also mentioned on the right side. You can verify that this script takes little time compared to other tools.
+
 ![image](https://github.com/user-attachments/assets/eec38c30-b47e-4729-a25d-f00cbc3761e0)
 
 
