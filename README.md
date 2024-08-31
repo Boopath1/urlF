@@ -78,7 +78,8 @@ If you're doing a mass scan, `urlF.py` can save you a lot of time. Even if you'r
 - **Advantage**: Provides an additional layer of filtering by analyzing query parameters, which can be more precise and tailored for specific needs. Outputs a clear and concise list of unique URLs with minimized redundancy.
 
 ## Sample POC
-![git](https://github.com/user-attachments/assets/1a8a59e2-ec9f-4c31-bb49-dfad7841c5f6)
+
+![image](https://github.com/user-attachments/assets/eec38c30-b47e-4729-a25d-f00cbc3761e0)
 
 
 ## Contributing
