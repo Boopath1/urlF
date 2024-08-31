@@ -11,7 +11,7 @@ git clone https://github.com/Boopath1/urlF.py
 Install the required dependencies:
 > Step 2
 ```sh
-pip install pyfiglet / or pip3 install pyfiglet
+pip3 install -r requirements.txt / or pip install -r requirements.txt
 ```
 
 ## Usage
