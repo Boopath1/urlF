@@ -1,4 +1,4 @@
-# Filter-Params
+# Url's - Filter by - Parameters
 `urlF.py` is a Python script designed to remove duplicate URLs based on their query parameters. The script processes a list of URLs from an input file, filters out duplicates based on their query parameters, and writes the unique URLs to an output file.
 
 ## Installation
