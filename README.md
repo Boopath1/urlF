@@ -1,2 +1,86 @@
-# urlF
-My script stands out by preserving the structure of duplicate URLs and handling complex query parameters, unlike standard tools that only filter alphabetically or deduplicate. 
+# Filter-Params
+`urlF.py` is a Python script designed to remove duplicate URLs based on their query parameters. The script processes a list of URLs from an input file, filters out duplicates based on their query parameters, and writes the unique URLs to an output file.
+
+## Installation
+
+> Step 1
+```sh
+git clone https://github.com/Boopath1/urlF.py
+```
+
+Install the required dependencies:
+> Step 2
+```sh
+pip install pyfiglet / or pip3 install pyfiglet
+```
+
+## Usage
+```sh
+python3 urlF.py <input_file> <output_file>
+```
+
+- `<input_file>`: Path to the input file containing the list of URLs.
+- `<output_file>`: Path to the output file where unique URLs will be written.
+
+Basic usage:
+> Step 3
+```sh
+python3 urlF.py duplicate-params.txt filtered_urls.txt
+```
+`urlF.py`: The main script file. It processes URLs from an input file, removes duplicates based on query parameters, and writes the results to an output file.
+
+## Example
+The input file `duplicate-params.txt` might look like this:
+<pre>
+https://example.com/page?fileGuid=DPg868kv89HJtQ8q
+https://example.com/page?fileGuid=DPg868kv89HJtQ8q&anotherParam=123
+https://example.com/page?anotherParam=123
+https://example.com/page?fileGuid=aAqwe868kv89HJtQ8q
+https://example.com/page?fileGuid=DPg868kv89HJtQ8q&extraParam=xyz
+https://example.com/page?extraParam=xyz
+https://example.com/page?extraParam=xyz_Aqw
+https://example.com/page?fileGuid=DifferentGuid
+</pre>
+
+The output file `filtered_urls.txt` will contain:
+<pre>
+https://example.com/page?fileGuid=DPg868kv89HJtQ8q
+https://example.com/page?fileGuid=DPg868kv89HJtQ8q&anotherParam=123
+https://example.com/page?anotherParam=123
+https://example.com/page?fileGuid=DPg868kv89HJtQ8q&extraParam=xyz
+https://example.com/page?extraParam=xyz
+</pre>
+
+
+## Features
+If you're doing a mass scan, `urlF.py` can save you a lot of time. Even if you're using other tools like `sort`, `urldedupe`, or `uro`, this script has some extra filtering by query parameters that can make the results easier to work with and speed up the process.
+
+## Comparison with Other Tools
+
+### `sort`
+
+- **Function**: Orders URLs alphabetically.
+- **Limitation**: Does not remove duplicates based on query parameters or other content.
+
+### `urldedupe`
+
+- **Function**: Removes duplicate URLs by checking the full URL.
+- **Limitation**: This may not handle complex query parameters or URL structures as effectively as a dedicated script.
+
+### `uro`
+
+- **Function**: URL normalization and deduplication.
+- **Limitation**: Focuses on normalization which might not be sufficient for complex query parameter deduplication.
+
+### `urlF.py`
+
+- **Function**: Specifically designed to remove duplicates based on query parameters while preserving the structure of unique URLs.
+- **Advantage**: Provides an additional layer of filtering by analyzing query parameters, which can be more precise and tailored for specific needs. Outputs a clear and concise list of unique URLs with minimized redundancy.
+
+## Sample POC
+![git](https://github.com/user-attachments/assets/1a8a59e2-ec9f-4c31-bb49-dfad7841c5f6)
+
+
+## Contributing
+
+If you have suggestions or improvements, you can create a pull request or open an issue.
