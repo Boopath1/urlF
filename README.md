@@ -83,6 +83,10 @@ The timing is also mentioned on the right side. You can verify that this script 
 
 ![image](https://github.com/user-attachments/assets/eec38c30-b47e-4729-a25d-f00cbc3761e0)
 
+- Even if you ran `paramspider` you will get most of the duplicate parameters.
+- What is the purpose of running multiple scans on the same parameter? I’m not criticizing any tools here. However, after running paramspider, using my tool next can help you save a significant amount of time.
+
+![image](https://github.com/user-attachments/assets/1f9bdbab-016d-4f53-91fa-dcc5e2d80143)
 
 ## Contributing
 
