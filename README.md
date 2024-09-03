@@ -88,6 +88,10 @@ The timing is also mentioned on the right side. You can verify that this script 
 
 ![image](https://github.com/user-attachments/assets/1f9bdbab-016d-4f53-91fa-dcc5e2d80143)
 
+![image](https://github.com/user-attachments/assets/53982d11-fdef-4465-a7c2-22432e60f416)
+
+- Almost 2K URLs 😱
+
 ## Contributing
 
 If you have suggestions or improvements, you can create a pull request or open an issue.
