@@ -104,7 +104,8 @@ Contributions are welcome! If you have suggestions or feature improvements, feel
 
 ## **🎯 Final Thoughts**
 
-- If you’re scanning large sets of URLs, urlF.py will save you time and provide cleaner results.
-- Works great alongside tools like paramspider, gau, katana, and others.
+- After enumerating all the URLs using tools like `waybackurls`, `gau`, `katana`, and others, use `urlF.py` to get unique URLs along with their parameters.
+- This ensures efficient filtering, reduces redundant requests, and helps in better targeted testing.
+- Optimized for security researchers and penetration testers to streamline the URL analysis process.
 
 Happy Hacking! 🎯 🚀
