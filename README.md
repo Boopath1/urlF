@@ -11,12 +11,12 @@ You can install `urlF.py` using **GitHub** or **PyPI**.
 ### **Option 1: Install from GitHub**
 > **Step 1: Clone the Repository**
 ```sh
-git clone https://github.com/Boopath1/urlf.py
+git clone https://github.com/Boopath1/urlF.py
 ```
 or
 
 ```sh
-git clone --depth 1 https://github.com/Boopath1/urlf.py
+git clone --depth 1 https://github.com/Boopath1/urlF.py
 ```
 
 Install the required dependencies:
