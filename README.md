@@ -39,6 +39,7 @@
   ```
   art
   colorlog
+  pyfiglet
   tqdm
   colorama
   ```
