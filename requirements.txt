@@ -1,5 +1,5 @@
 colorlog
+art
 tqdm
-random
 pyfiglet
 colorama
