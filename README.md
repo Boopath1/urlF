@@ -47,7 +47,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Boopath1/urlf.git
+   git clone https://github.com/Boopath1/urlF.git
    cd urlf
    ```
 
