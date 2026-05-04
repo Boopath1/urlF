@@ -1,4 +1,4 @@
-# URLF - URL Filter Tool v2.4
+# URLF - URL Filter Tool v2.5
 
 <div align="center">
 
